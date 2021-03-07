@@ -17,8 +17,8 @@ public class Health {
         // test connection        
         Connection conn = null;
         try {
-            Class.forName("org.h2.Driver");
-            conn = DriverManager.getConnection("jdbc:h2:./resources/HealthConnectDb");
+            Class.forName("org.sqlite.JDBC");
+            conn = DriverManager.getConnection("jdbc:sqlite:C:/Users/willg/OneDrive - Florida Gulf Coast University/HealthConnect/resources/HealthConnect.db");
             //JOptionPane.showMessageDialog (null, "Connected");            
             Statement statement = conn.createStatement();
             ResultSet hc = statement.executeQuery("select * from Patient");

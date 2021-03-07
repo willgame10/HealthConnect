@@ -1,9 +1,0 @@
-2021-03-06 19:55:35 jdbc[5]: exception
-org.h2.jdbc.JdbcSQLException: Table "REQUEST" not found; SQL statement:
-select RID from Request [42102-197]
-2021-03-06 20:11:47 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "PATIENT" not found; SQL statement:
-select * from Patient [42102-197]
-2021-03-06 20:12:10 jdbc[3]: exception
-org.h2.jdbc.JdbcSQLException: Table "PATIENT" not found; SQL statement:
-select * from Patient [42102-197]
